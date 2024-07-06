@@ -1,0 +1,157 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  align-items: center;
+  width: 100%;
+}
+.justify-content-center {
+  justify-content: center;
+}
+#c1-2 {
+  text-align: left;
+  width: 80%;
+  font-size: 34px;
+  color: rgb(79, 110, 130);
+}
+#c1-5 {
+  margin-bottom: 0px;
+}
+#c1-1 {
+  width: 80%;
+  font-size: 53px;
+  text-align: left;
+  color: rgb(79, 110, 130);
+}
+#c1-3 {
+  padding-top: 120px;
+  padding-bottom: 250px;
+}
+
+#c1-8 {
+  margin-top: 140px;
+  align-items: center;
+  color: white;
+  width: 50%;
+  margin-bottom: 280px;
+}
+
+.justify-content-even {
+  justify-content: space-evenly;
+}
+
+#c1-9 {
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.c1-10 {
+  font-size: 25px;
+}
+
+#c1-6 {
+  text-align: right;
+  font-size: 400%;
+  font-weight: 900;
+  width: 70%;
+}
+
+#c1-7 {
+  width: 70%;
+  font-size: 25px;
+  text-align: center;
+}
+
+#c1-4 {
+  text-align: left;
+  font-size: 400%;
+  font-weight: 900;
+  width: 70%;
+}
+.ancestor {
+  width: 1081px;
+  height: 4415px;
+  background-image: url(Assets/1x/Asset\ 2.png);
+  background-repeat: no-repeat;
+}
+.highlight {
+  color: white;
+  background-color: red;
+}
+.debug {
+  border: 1px solid red;
+}
+
+.okay {
+  border: 1px solid green;
+}
+
+.flex {
+  display: flex;
+}
+
+.f-wrap {
+  flex-wrap: wrap;
+}
+
+.f-col {
+  flex-direction: column;
+}
+
+.f-row {
+  flex-direction: row;
+}
+
+.zero {
+  margin: 0px;
+  padding: 0px;
+}
+
+.ct {
+  text-align: center;
+}
+
+.container {
+}
+
+.c1 {
+  width: 100%;
+  height: 2060px;
+  margin-top: 230px;
+  /* border: 1px solid red; */
+}
+
+.c2 {
+}
+
+.card {
+  /* border: 3px solid black; */
+  padding: 10px 5px;
+  border-radius: 12px;
+  /* background-color: white; */
+  margin: 5px;
+}
+
+.grey {
+  color: rgb(61, 84, 86);
+}
+
+.btn {
+  border: 0px solid black;
+  /* padding: 10px 5px; */
+  border-radius: 12px;
+  background-color: #f01c24;
+
+  color: white;
+  font-size: 18px;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  /* Adjust text sizes for smaller screens */
+  body {
+    width: 1081px;
+  }
+}
