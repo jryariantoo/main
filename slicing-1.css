@@ -1,146 +1,160 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Slicing 1</title>
-    <link rel="stylesheet" href="slicing-1.css" />
-  </head>
-  <body class="flex f-col">
-    <div class="ancestor">
-      <div class="container c1">
-        <div class="flex f-wrap justify-content-center" id="c1-5">
-          <h1 class="zero" id="c1-1">Halo <span class="highlight">Ash</span>, Selamat Tahun Baru 2022!</h1>
-          <div id="c1-2">
-            <p>
-              Tau gak sih, kalo perjalanan menuju #FinanciallyFit dimulai dari satu aja workout finansial? Nah, tanpa kamu sadarin kamu udah <span style="font-weight: 700">1 tahun</span> latihan finansial bareng OCBC NISP. Yuk, kita liat
-              dulu perjalanan finansialmu di tahun 2021!
-            </p>
-          </div>
-        </div>
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  align-items: center;
+  width: 100%;
+}
+.justify-content-center {
+  justify-content: center;
+}
+#c1-2 {
+  text-align: left;
+  width: 80%;
+  font-size: 34px;
+  color: rgb(79, 110, 130);
+}
+#c1-5 {
+  margin-bottom: 0px;
+}
+#c1-1 {
+  width: 80%;
+  font-size: 53px;
+  text-align: left;
+  color: rgb(79, 110, 130);
+}
+/* #c1-3 {
+  padding-top: 120px;
+  padding-bottom: 250px;
+} */
 
-        <div class="flex f-wrap" id="c1-3" style="color: rgb(79, 110, 130); padding-bottom: 380px">
-          <div style="width: 50%"></div>
-          <div class="flex f-col" style="width: 50%; align-items: center">
-            <p class="zero" id="c1-4">“</p>
-            <div id="c1-7">
-              <p class="zero">Biar panjang perjalananmu,</p>
-              <p class="zero">Waktu selalu terasa lambat karena</p>
-              <p class="zero">cepatnya gerakmu</p>
-              <br />
-              <p class="zero">Ketika yang lain baru jalan, kamu</p>
-              <p class="zero">sudah lari duluan</p>
-              <br />
-              <p class="zero">Bukannya gak sabaran, tapi karena</p>
-              <p class="zero">banyak transaksi yang penuh</p>
-              <p class="zero">kemudahan</p>
-              <br />
-              <p class="zero">Tiap hari kamu lancar transaksi</p>
-              <p class="zero">tanpa mager, kamulah si</p>
-              <p class="zero"><span style="font-weight: bold">Transaction Dasher</span>.</p>
-            </div>
-            <p class="zero" id="c1-6">”</p>
-          </div>
-        </div>
+#c1-8 {
+  margin-top: 140px;
+  align-items: center;
+  color: white;
+  width: 50%;
+  margin-bottom: 280px;
+}
 
-        <div class="flex justify-content-center">
-          <div class="flex f-col" id="c1-8">
-            <p id="c1-9" class="zero">Iya Ash, itu kamu.</p>
-            <p class="c1-10" class="zero">dan ini hasil workout finansial-mu yang super</p>
-            <div class="flex" style="width: 100%">
-              <p class="zero c1-10" style="width: 45%; text-align: right">keren di</p>
-              <div class="zero" style="width: 30%"></div>
-              <div class="zero" style="width: 30%; font-size: 20px; font-weight: 800">:</div>
-            </div>
-          </div>
-        </div>
+.justify-content-even {
+  justify-content: space-evenly;
+}
 
-        <div class="flex justify-content-center">
-          <div class="flex justify-content-even" style="width: 100%; font-size: 25px; color: white; font-weight: 900">
-            <div class="flex f-col" style="width: 33%; text-align: center; align-items: end">
-              <p style="width: 50%">Product Power User</p>
-            </div>
-            <div class="flex justify-content-center" style="width: 33%; text-align: center">
-              <p style="width: 30%">Transfer Master</p>
-            </div>
-            <div style="width: 33%; text-align: center">
-              <p style="width: 30%">Payment Champion</p>
-            </div>
-          </div>
-        </div>
+#c1-9 {
+  font-size: 50px;
+  font-weight: 800;
+}
 
-        <div class="flex justify-content-center" style="padding-bottom: 95px">
-          <p style="color: white; font-size: 20px; font-weight: 500">Yuk, share prestasi kamu kali ini</p>
-        </div>
-      </div>
+.c1-10 {
+  font-size: 25px;
+}
 
-      <div class="container c2">
-        <div class="flex f-col" style="align-items: center; text-align: center; padding-top: 60px; padding-bottom: 70px">
-          <h1 class="zero" style="font-size: 50px; width: 75%; color: white">Gimana Ash? Udah siap buat lanjutin perjalanan dan workout finansial-mu di 2021?</h1>
-          <div style="padding-top: 20px">
-            <p class="zero" style="font-size: 23px; color: white; text-align: center">Biar otot finansialmu juga makin kuat, yuk tambah produk</p>
-            <p class="zero" style="font-size: 23px; color: white; text-align: center">OCBC ini kedalam workout finansialmu:</p>
-          </div>
-        </div>
+#c1-6 {
+  text-align: right;
+  font-size: 400%;
+  font-weight: 900;
+  width: 70%;
+}
 
-        <div class="flex f-col" style="align-items: center; padding-bottom: 100px">
-          <div class="zero flex" style="width: 100%; padding-bottom: 70px">
-            <div class="zero" style="width: 23%"></div>
-            <div class="card f-wrap" style="width: 23%">
-              <p class="zero grey" style="font-size: 21px; font-weight: 600">Download ONe Mobile</p>
-              <p class="zero grey" style="font-size: 18px; width: 80%; padding-bottom: 60px">Untuk melakukan pembayaran dan investasi di ujung jari</p>
-              <button class="zero btn" style="padding-left: 24px"><a class="zero btn" href="#">Download</a></button>
-            </div>
-            <div class="zero" style="width: 19%"></div>
-            <div class="card" style="width: 25%">
-              <p class="zero grey" style="font-size: 21px; font-weight: 600">Promo ONe Mobile</p>
-              <p class="zero grey" style="font-size: 18px; width: 75%; padding-bottom: 38px">Nikmati manfaat untuk layanan transaksi dan pembukaan berbagai produk di ONe Mobile</p>
-              <button class="zero btn" style="padding-left: 20px"><a class="zero btn" href="#">Lihat Promo</a></button>
-            </div>
-          </div>
-          <div class="zero flex" style="width: 100%">
-            <div class="zero" style="width: 23%"></div>
-            <div class="card f-wrap" style="width: 23%">
-              <p class="zero grey" style="font-size: 21px; font-weight: 600">Lihat Nyala</p>
-              <p class="zero grey" style="font-size: 18px; width: 80%; padding-bottom: 39px">Untuk mengoptimalkan pengelolaan keuangan dan optimalkan aset secara digital</p>
-              <button class="zero btn" style="margin-left: 13px"><a class="zero btn" href="#">Lihat Nyala</a></button>
-            </div>
-            <div class="zero" style="width: 19%"></div>
-            <div class="card" style="width: 25%">
-              <p class="zero grey" style="font-size: 21px; font-weight: 600">Raih</p>
-              <p class="zero grey" style="font-size: 18px; width: 75%; padding-bottom: 39px">Jangan lupa untuk mengambil keuntungan dari transaksi di layanan Raih by Poinseru</p>
-              <button class="zero btn" style="padding-left: 5px"><a class="zero btn" href="#">Cek Raih</a></button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="container c3">
-        <div class="flex justify-content-center grey">
-          <p style="font-size: 50px; font-weight: 800; width: 70%; text-align: center; padding-bottom: 330px">Kamu gak sendiri loh, ini dia teman-teman yang juga workout finansial bareng kamu:</p>
-        </div>
-        <div class="flex" style="padding-bottom: 80px">
-          <div class="zero flex f-col" style="text-align: center; align-items: center">
-            <p class="zero grey" style="font-size: 22px; font-weight: 900; padding-bottom: 10px">Prosper Pacer</p>
-            <p class="zero grey" style="width: 50%">Transaksi dan product holding tinggi. Meski udah ahli, jaga dan latih terus financial fitness-mu bareng OCBC NISP!</p>
-          </div>
-          <div class="zero flex f-col" style="text-align: center; align-items: center">
-            <p class="zero grey" style="font-size: 22px; font-weight: 900; padding-bottom: 10px">Fund Lifter</p>
-            <p class="zero grey" style="width: 50%">Product holding lebih tinggi daripada transaksi. Power kamu udah oke, yuk workout lagi biar otot finansial makin lincah!</p>
-          </div>
-          <div class="zero flex f-col" style="text-align: center; align-items: center">
-            <p class="zero grey" style="font-size: 22px; font-weight: 900; padding-bottom: 10px">Saving Exerciser</p>
-            <p class="zero grey" style="width: 50%">Transaksi lebih tinggi daripada product holding. Speed kamu sabi nih, lanjut workout yuk biar otot finansial makin kuat!</p>
-          </div>
-        </div>
-        <div class="flex f-wrap justify-content-center">
-          <div class="zero grey" style="font-weight: 600px; font-size: 23px; text-align: center; width: 100%; padding-bottom: 40px">
-            <p class="zero">Itu dia review financial fitness-mu yang keren abis, Ash!</p>
-            <p class="zero">Yuk jadi makin #FinanciallyFit di tahun 2022 karena bareng OCBC NISP</p>
-            <p class="zero">Tidak Ada yang Tidak Bisa!</p>
-          </div>
-          <div class="zero grey" style="font-size: 22px; font-weight: 4500">Salam Financial Fitness</div>
-        </div>
-      </div>
-    </div>
-  </body>
-</html>
+#c1-7 {
+  width: 70%;
+  font-size: 25px;
+  text-align: center;
+}
+
+#c1-4 {
+  text-align: left;
+  font-size: 400%;
+  font-weight: 900;
+  width: 70%;
+}
+.ancestor {
+  width: 1081px;
+  height: 4415px;
+  background-image: url(Assets/1x/Asset\ 2.png);
+  background-repeat: no-repeat;
+}
+.highlight {
+  color: white;
+  background-color: red;
+}
+.debug {
+  border: 1px solid red;
+}
+
+.okay {
+  border: 1px solid green;
+}
+
+.flex {
+  display: flex;
+}
+
+.f-wrap {
+  flex-wrap: wrap;
+}
+
+.f-col {
+  flex-direction: column;
+}
+
+.f-row {
+  flex-direction: row;
+}
+
+.zero {
+  margin: 0px;
+  padding: 0px;
+}
+
+.ct {
+  text-align: center;
+}
+
+.container {
+}
+
+.c1 {
+  width: 100%;
+  height: 2060px;
+  margin-top: 230px;
+  /* border: 1px solid red; */
+}
+
+.c2 {
+}
+
+.card {
+  /* border: 3px solid black; */
+  padding: 10px 5px;
+  border-radius: 12px;
+  /* background-color: white; */
+  margin: 5px;
+}
+
+.grey {
+  color: rgb(61, 84, 86);
+}
+
+.btn {
+  border: 0px solid black;
+  /* padding: 10px 5px; */
+  border-radius: 12px;
+  background-color: #f01c24;
+
+  color: white;
+  font-size: 18px;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  /* Adjust text sizes for smaller screens */
+  body {
+    width: 1081px;
+  }
+  #c1-3 {
+    padding-bottom: 220px;
+  }
+}
