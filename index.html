@@ -19,7 +19,7 @@
           </div>
         </div>
 
-        <div class="flex f-wrap" id="c1-3" style="color: rgb(79, 110, 130); padding-bottom: 380px">
+        <div class="flex f-wrap" id="c1-3" style="color: rgb(79, 110, 130); padding-bottom: 240px">
           <div style="width: 50%"></div>
           <div class="flex f-col" style="width: 50%; align-items: center">
             <p class="zero" id="c1-4">“</p>
@@ -142,5 +142,14 @@
         </div>
       </div>
     </div>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        if (window.innerWidth < 1080) {
+          var viewportMetaTag = document.querySelector('meta[name="viewport"]');
+          var scale = window.innerWidth / 1080; // Calculate the scale factor
+          viewportMetaTag.setAttribute("content", "width=1080, initial-scale=" + scale + ", maximum-scale=" + scale + ", user-scalable=0");
+        }
+      });
+    </script>
   </body>
 </html>
