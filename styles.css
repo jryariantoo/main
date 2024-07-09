@@ -1,115 +1,92 @@
-body {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-  align-items: center;
-  width: 100%;
-}
-.justify-content-center {
-  justify-content: center;
-}
-#c1-2 {
-  text-align: left;
-  width: 80%;
-  font-size: 34px;
-  color: rgb(79, 110, 130);
-}
-#c1-5 {
-  margin-bottom: 0px;
-}
-#c1-1 {
-  width: 80%;
-  font-size: 53px;
-  text-align: left;
-  color: rgb(79, 110, 130);
-}
-/* #c1-3 {
-  padding-top: 120px;
-  padding-bottom: 250px;
-} */
-
-#c1-8 {
-  /* margin-top: 140px;  
-  align-items: center;
-  color: white;
-  width: 50%; 
-  margin-bottom: 280px; */
-}
-
-.justify-content-even {
-  justify-content: space-evenly;
-}
-
-#c1-9 {
-  font-size: 50px;
-  font-weight: 800;
-}
-
-.c1-10 {
-  font-size: 25px;
-}
-
-#c1-6 {
-  text-align: right;
-  font-size: 400%;
-  font-weight: 900;
-  width: 70%;
-}
-
-#c1-7 {
-  width: 70%;
-  font-size: 25px;
-  text-align: center;
-}
-
-#c1-4 {
-  text-align: left;
-  font-size: 400%;
-  font-weight: 900;
-  width: 70%;
-}
-.ancestor {
-  width: 1081px;
-  height: 4415px;
-  background-image: url(Assets/2.png);
-  background-repeat: no-repeat;
-}
-
-.ancestor-text-only {
-  width: 1081px;
-  height: 4415px;
-  border: 1px solid black;
-  /* background-image: url(Assets/1.png); */
-  /* background-repeat: no-repeat; */
-}
-
-.highlight {
-  color: white;
-  background-color: red;
-}
-
 .debug {
   border: 1px solid red;
 }
 
-.okay {
-  border: 1px solid green;
+img.img-fluid.achievement {
+  height: 100%;
+  width: 100%;
 }
 
-.flex {
-  display: flex;
+.c1 {
+  width: 100%;
+  height: 63rem;
+  background-image: url(asset/Bg1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
-.f-wrap {
-  flex-wrap: wrap;
+.c2 {
+  width: 100%;
+  height: 28.5rem;
+  background-image: url(asset/bg2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.c3 {
+  width: 100%;
+  height: 10rem;
+  background-color: #5b6e79;
+  background-position: center;
+  background-size: cover;
+}
+
+.c4 {
+  width: 100%;
+  height: 50rem;
+  background-color: red;
+  background-position: center;
+  background-size: cover;
+}
+
+.c5 {
+  width: 100%;
+  height: 44rem;
+  background-image: url(asset/bg3.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.c1-text-only {
+  width: 100%;
+  height: 63rem;
+  
+}
+
+.c2-text-only {
+  width: 100%;
+  height: 28.5rem;
+  
+}
+
+.c3-text-only {
+  width: 100%;
+  height: 10rem;
+  
+}
+
+.c4-text-only {
+  width: 100%;
+  height: 50rem;
+  
+}
+
+.c5-text-only {
+  width: 100%;
+  height: 44rem;
+  
+}
+
+.container {
+  flex-direction: column;
+  /* height: 400px; */
 }
 
 .f-col {
   flex-direction: column;
-}
-
-.f-row {
-  flex-direction: row;
 }
 
 .zero {
@@ -117,24 +94,390 @@ body {
   padding: 0px;
 }
 
-.ct {
+.highlight {
+  color: white;
+  background-color: red;
+}
+
+.box1 {
+  /* margin-top: 10rem; */
+  width: 90.5%;
+}
+
+.grey {
+  color: rgb(15, 41, 60);
+}
+
+.okay {
+  border: 1px solid green;
+}
+.ancestor {
+  width: 100%;
+}
+/* Media queries for different widths */
+@media (max-width: 321px) {
+  .c1 {
+    width: 100%;
+
+    height: 26.5rem;
+    background-color: black;
+  }
+  .c2 {
+    width: 100%;
+    height: 11.8rem;
+  }
+  .c3 {
+    width: 100%;
+
+    height: 5rem;
+  }
+  .c4 {
+    width: 100%;
+
+    height: 33rem;
+  }
+  .c5 {
+    width: 100%;
+
+    height: 18.5rem;
+  }
+
+  p.fs-1 {
+    font-size: 0.8em;
+  }
+
+  p.fs-2 {
+    font-size: 0.7em;
+  }
+  p.fs-3 {
+    font-size: 0.6em;
+  }
+  p.fs-4 {
+    font-size: 0.5em;
+  }
+  p.fs-5 {
+    font-size: 0.4em;
+  }
+  p.fs-6 {
+    font-size: 0.3em;
+  }
+
+  .box1 {
+    margin-top: 4em;
+    padding-bottom: 2em;
+  }
+
+  img.img-fluid.achievement {
+    height: 50%;
+    width: 50%;
+  }
+
+  .box2 {
+    padding-top: 0px;
+  }
+  #box3-1 {
+    padding-top: 0px;
+  }
+
+  .d-flex.container.c3 p.fs-5 {
+    /* CSS styles for the <p> element */
+    font-size: 0.7em;
+    padding-top: 1em;
+  }
+
+  /* Select the parent <div> of icons */
+  .d-flex.container.c3 .fs-2 {
+    /* CSS styles for the parent <div> */
+    font-size: 1em;
+  }
+
+   /* c4 */
+
+  /* p.mb-0.text-secondary.fs-5.font-weight-bold{
+    font-size: 1em;
+  } */
+  button.btn.btn-danger.fs-5 {
+    width: 60%;
+    margin-top: 1em;
+    background-color: red;
+    border-radius: 12px;
+    padding: 0px;
+    font-size: 0.6em;
+  }
+
+  img.img-fluid.img-c4 {
+    height: 100%;
+    width: auto;
+    padding-right: 1em;
+    padding-left: 1em;
+  }
+
+  .c4-card-mid {
+    padding-top: 0em;
+  }
+
+  div.card-c4 {
+    /* border: 3px solid black; */
+    /* padding: 10px 5px; */
+    border-radius: 12px;
+    /* background-color: white; */
+    /* margin: 5px; */
+    width: 100%;
+    /* padding: 2em; */
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    height: 110%;
+  }
+
+  div.card-body{
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  
+  }
+  p.mb-0.text-secondary.fs-5.font-weight-bold{
+    font-size: 0.6em;
+  }
+
+  p.mb-0.text-secondary.fs-6{
+    font-size: 0.4em;
+  }
+    
+      /* c5 */
+    
+      .c5-1 {
+        margin-top: 1em;
+        width: 100%;
+        font-size: 0.9em;
+      }
+    
+      .c5-1 p {
+        width: 70%;
+      }
+    
+      .c5-content {
+        width: 50%;
+        padding-top: 1em;
+      
+      }
+
+      p.zero.grey.text-center.fs-5{
+        font-size: 0.33em;
+
+      }
+      
+      p.zero.grey.text-center.fs-6{
+        font-size: 0.27em;
+      }
+    
+      .img-fluid {
+        height: 70%;
+        width: 70%;
+      }
+    
+      .box6 {
+        padding-top: 0.6em;
+      }
+    
+      .box7 {
+        padding-bottom: 0.24em;
+      }
+    
+      div.zero.grey.fs-5.salam-fts{
+        font-size: 0.4em;
+      }
+      #box3-1 {
+        padding-top: 1em;
+        font-size: 1em;
+      }
+}
+
+@media (min-width: 322px) and (max-width: 376px) {
+  .c1 {
+    width: 100%;
+    height: 30rem;
+  }
+
+  .c2 {
+    width: 100%;
+
+    height: 14.3rem;
+  }
+  .c3 {
+    width: 100%;
+
+    height: 5rem;
+  }
+  .c4 {
+    width: 100%;
+
+    height: 41rem;
+  }
+  .c5 {
+    width: 100%;
+
+    height: 21.9rem;
+  }
+
+  p.fs-1 {
+    font-size: 0.9em;
+  }
+
+  p.fs-2 {
+    font-size: 0.875em;
+  }
+  p.fs-3 {
+    font-size: 0.75em;
+  }
+  p.fs-4 {
+    font-size: 0.625em;
+  }
+  p.fs-5 {
+    font-size: 0.5em;
+  }
+  p.fs-6 {
+    font-size: 0.375em;
+  }
+
+  .box1 {
+    margin-top: 4.5em;
+    padding-bottom: 2em;
+  }
+
+  img.img-fluid.achievement {
+    height: 70%;
+    width: 70%;
+  }
+
+  #box3-1 {
+    padding-top: 0px;
+  }
+
+  .d-flex.container.c3 p.fs-5 {
+    /* CSS styles for the <p> element */
+    font-size: 0.7em;
+    padding-top: 1em;
+  }
+
+  /* Select the parent <div> of icons */
+  .d-flex.container.c3 .fs-2 {
+    /* CSS styles for the parent <div> */
+    font-size: 1em;
+  }
+
+   /* c4 */
+
+  /* p.mb-0.text-secondary.fs-5.font-weight-bold{
+    font-size: 1em;
+  } */
+  button.btn.btn-danger.fs-5 {
+    width: 70%;
+    margin-top: 1em;
+    background-color: red;
+    border-radius: 12px;
+    padding: 0px;
+    font-size: 0.7em;
+  }
+
+  img.img-fluid.img-c4 {
+    height: 100%;
+    width: auto;
+    padding-right: 1em;
+    padding-left: 1em;
+  }
+
+  .c4-card-mid {
+    padding-top: 0em;
+  }
+
+  div.card-c4 {
+    /* border: 3px solid black; */
+    /* padding: 10px 5px; */
+    border-radius: 12px;
+    /* background-color: white; */
+    /* margin: 5px; */
+    width: 100%;
+    /* padding: 2em; */
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    height: 110%;
+  }
+
+  div.card-body{
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  
+  }
+  p.mb-0.text-secondary.fs-5.font-weight-bold{
+    font-size: 0.8em;
+  }
+
+  p.mb-0.text-secondary.fs-6{
+    font-size: 0.6em;
+  }
+    
+      /* c5 */
+    
+      .c5-1 {
+        margin-top: 1em;
+        width: 100%;
+        font-size: 0.9em;
+      }
+    
+      .c5-1 p {
+        width: 70%;
+      }
+    
+      .c5-content {
+        width: 50%;
+        padding-top: 1em;
+      
+      }
+
+      p.zero.grey.text-center.fs-5{
+        font-size: 0.4em;
+
+      }
+      
+      p.zero.grey.text-center.fs-6{
+        font-size: 0.3em;
+      }
+    
+      .img-fluid {
+        height: 70%;
+        width: 70%;
+      }
+    
+      .box6 {
+        padding-top: 1em;
+      }
+    
+      .box7 {
+        padding-bottom: 0.4em;
+      }
+    
+      div.zero.grey.fs-5.salam-fts{
+        font-size: 0.4em;
+      }
+      #box3-1 {
+        padding-top: 1em;
+        font-size: 1em;
+      }
+}
+
+.custom-card {
+  width: 100%;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f8f9fa;
   text-align: center;
 }
 
-.container {
-}
-
-.c1 {
-  width: 100%;
-  height: 2060px;
-  margin-top: 230px;
-  /* border: 1px solid red; */
-}
-
-.c2 {
-}
-
-.card {
+.card-c4 {
   /* border: 3px solid black; */
   /* padding: 10px 5px; */
   border-radius: 12px;
@@ -143,40 +486,825 @@ body {
   width: 32%;
 }
 
-.grey {
-  color: rgb(61, 84, 86);
-}
-
-.btn {
-  /* padding: 10px 5px; */
-  border-radius: 12px;
-  background-color: #f01c24;
-
-  color: white;
-  font-size: 18px;
-  font-weight: 800;
-  text-decoration: none;
-}
-
-.btn-text-only {
-  border: 0px solid black;
-  /* padding: 10px 5px; */
-  border-radius: 12px;
-  background-color: #f01c24;
-
-  color: black;
-  font-size: 18px;
-  font-weight: 800;
-  text-decoration: none;
-}
-
-/* Responsive styles */
-@media screen and (max-width: 768px) {
-  /* Adjust text sizes for smaller screens */
-  body {
-    width: 1081px;
+@media (min-width: 377px) and (max-width: 428px) {
+  .c1 {
+    width: 100%;
+    height: 33.5rem;
   }
-  /* #c1-3 {
-    padding-bottom: 220px;
+
+  .c2 {
+    width: 100%;
+
+    height: 16.2rem;
+  }
+  .c3 {
+    width: 100%;
+
+    height: 6rem;
+  }
+  .c4 {
+    width: 100%;
+
+    height: 48rem;
+  }
+  .c5 {
+    width: 100%;
+
+    height: 25rem;
+  }
+
+  .box1 {
+    padding-top: 0px;
+  }
+
+  p.fs-1 {
+    font-size: 1.1em;
+  }
+
+  p.fs-2 {
+    font-size: 1em;
+  }
+  p.fs-3 {
+    font-size: 0.9em;
+  }
+  p.fs-4 {
+    font-size: 0.7em;
+  }
+  p.fs-5 {
+    font-size: 0.5em;
+  }
+  p.fs-6 {
+    font-size: 0.3em;
+  }
+
+  .box1 {
+    margin-top: 5em;
+    padding-bottom: 3em;
+  }
+
+  .box3{
+    padding-top: 1em;
+  }
+  
+
+  img.img-fluid.achievement {
+    height: 65%;
+    width: 65%;
+  }
+
+  #box3-1 {
+    padding-top: 0px;
+  }
+
+  .d-flex.container.c3 p.fs-5 {
+    /* CSS styles for the <p> element */
+    font-size: 0.7em;
+    padding-top: 1em;
+  }
+
+  /* Select the parent <div> of icons */
+  .d-flex.container.c3 .fs-2 {
+    /* CSS styles for the parent <div> */
+    font-size: 1em;
+  }
+
+  /* c4 */
+
+  /* p.mb-0.text-secondary.fs-5.font-weight-bold{
+    font-size: 1em;
   } */
+  button.btn.btn-danger.fs-5 {
+    width: 60%;
+    margin-top: 1em;
+    background-color: red;
+    border-radius: 12px;
+    padding: 0px;
+  }
+
+  img.img-fluid.img-c4 {
+    height: 100%;
+    width: auto;
+    padding-right: 1em;
+    padding-left: 1em;
+  }
+
+  .c4-card-mid {
+    padding-top: 0em;
+  }
+
+  div.card-c4 {
+    /* border: 3px solid black; */
+    /* padding: 10px 5px; */
+    border-radius: 12px;
+    /* background-color: white; */
+    /* margin: 5px; */
+    width: 100%;
+    /* padding: 2em; */
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    height: 110%;
+  }
+
+  div.card-body{
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  
+  }
+  p.mb-0.text-secondary.fs-5.font-weight-bold{
+    font-size: 1em;
+  }
+
+  p.mb-0.text-secondary.fs-6{
+    font-size: 0.7em;
+  }
+    
+      /* c5 */
+    
+      .c5-1 {
+        margin-top: 1em;
+        width: 100%;
+        font-size: 0.9em;
+      }
+    
+      .c5-1 p {
+        width: 70%;
+      }
+    
+      .c5-content {
+        width: 50%;
+        padding-top: 1em;
+      
+      }
+
+      p.zero.grey.text-center.fs-5{
+        font-size: 0.45em;
+
+      }
+      
+      p.zero.grey.text-center.fs-6{
+        font-size: 0.38em;
+      }
+    
+      .img-fluid {
+        height: 70%;
+        width: 70%;
+      }
+    
+      .box6 {
+        padding-top: 1em;
+      }
+    
+      .box7 {
+        padding-bottom: 0.5em;
+      }
+    
+      div.zero.grey.fs-5.salam-fts{
+        font-size: 0.5em;
+      }
+      #box3-1 {
+        padding-top: 1em;
+        font-size: 1em;
+      }
+}
+
+@media (min-width: 429px) and (max-width: 769px) {
+  .c1 {
+    width: 100%;
+    height: 60rem;
+  }
+
+  .c2 {
+    width: 100%;
+
+    height: 27.3rem;
+  }
+  .c3 {
+    width: 100%;
+
+    height: 7rem;
+  }
+  .c4 {
+    width: 100%;
+
+    height: 47rem;
+  }
+  .c5 {
+    width: 100%;
+
+    height: 42.2rem;
+  }
+
+  p.fs-1 {
+    font-size: 1.8em;
+  }
+
+  p.fs-2 {
+    font-size: 1.5em;
+  }
+  p.fs-3 {
+    font-size: 1.2em;
+  }
+  p.fs-4 {
+    font-size: 0.9em;
+  }
+  p.fs-5 {
+    font-size: 0.7em;
+  }
+  p.fs-6 {
+    font-size: 0.6em;
+  }
+
+  .box2 {
+    padding-bottom: 2em;
+  }
+
+  div.teks-box2{
+    font-size: 1.6em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+  .box1 {
+    margin-top: 10em;
+    padding-bottom: 7em;
+  }
+
+  img.img-fluid .achievement {
+    height: 50%;
+    width: 50%;
+  }
+
+  #box3-1 {
+    padding-top: 0px;
+  }
+
+  .d-flex.container.c3 p.fs-5 {
+    /* CSS styles for the <p> element */
+    font-size: 1em;
+    padding-top: 1em;
+  }
+
+  /* Select the parent <div> of icons */
+  .d-flex.container.c3 .fs-2 {
+    /* CSS styles for the parent <div> */
+    font-size: 2em;
+  }
+
+    /* c4 */
+
+  
+    .btn.btn-danger {
+      width: 60%;
+      margin-top: 1em;
+      background-color: red;
+      border-radius: 12px;
+      padding: 0px;
+    }
+  
+    img.img-fluid.img-c4 {
+      height: 100%;
+      width: auto;
+      padding-right: 1em;
+      padding-left: 1em;
+    }
+  
+    .c4-card-mid {
+      padding-top: 3em;
+    }
+  
+    div.card-c4 {
+      /* border: 3px solid black; */
+      /* padding: 10px 5px; */
+      border-radius: 12px;
+      /* background-color: white; */
+      /* margin: 5px; */
+      width: 100%;
+      /* padding: 2em; */
+      margin-left: 1.5em;
+      margin-right: 1.5em;
+      height: 110%;
+    }
+  
+    p.mb-0.text-secondary.fs-5.font-weight-bold{
+      font-size: 1em;
+    }
+    div.card-body{
+      padding: 0px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    
+    }
+
+    /* c5 */
+  
+    .c5-1 {
+      margin-top: 1em;
+      width: 100%;
+    }
+  
+    .c5-1 p {
+      width: 70%;
+    }
+  
+    .c5-content {
+      width: 50%;
+      padding-top: 1em;
+    
+    }
+  
+    .img-fluid {
+      height: 70%;
+      width: 70%;
+    }
+  
+    .box6 {
+      padding-top: 2em;
+    }
+  
+    .box7 {
+      padding-bottom: 2em;
+    }
+  
+  
+
+  
+}
+
+.fs-1 {
+  font-size: 3em;
+}
+
+.fs-2 {
+  font-size: 2.5em;
+}
+.fs-3 {
+  font-size: 2em;
+}
+.fs-4 {
+  font-size: 1.5em;
+}
+.fs-5 {
+  font-size: 1em;
+}
+.fs-6 {
+  font-size: 0.5em;
+}
+
+@media (min-width: 770px) and (max-width: 1025px) {
+  .c1 {
+    width: 100%;
+    height: 80rem;
+  }
+
+  .c2 {
+    width: 100%;
+
+    height: 36.5rem;
+  }
+  .c3 {
+    width: 100%;
+
+    height: 10rem;
+  }
+  .c4 {
+    width: 100%;
+
+    height: 45rem;
+  }
+  .c5 {
+    width: 100%;
+
+    height: 56rem;
+  }
+
+  .fs-1 {
+    font-size: 2em;
+  }
+
+  .fs-2 {
+    font-size: 1.75em;
+  }
+  .fs-3 {
+    font-size: 1.5em;
+  }
+  .fs-4 {
+    font-size: 1.25em;
+  }
+  .fs-5 {
+    font-size: 1em;
+  }
+  .fs-6 {
+    font-size: 0.75em;
+  }
+
+  .box1 {
+    padding-top: 15em;
+    padding-bottom: 7em;
+  }
+
+  .box2 {
+    padding-top: 3em;
+  }
+
+  .box3 {
+    padding-top: 4em;
+  }
+
+  div.teks-box2 {
+    margin-top: 1em;
+    font-size: 1.1em;
+  }
+
+    /* c4 */
+
+  
+  .btn.btn-danger {
+    width: 60%;
+    margin-top: 1em;
+    background-color: red;
+    border-radius: 12px;
+    padding: 0px;
+  }
+
+  img.img-fluid.img-c4 {
+    height: 100%;
+    width: auto;
+    padding-right: 1em;
+    padding-left: 1em;
+  }
+
+  .c4-card-mid {
+    padding-top: 3em;
+  }
+
+  div.card-c4 {
+    /* border: 3px solid black; */
+    /* padding: 10px 5px; */
+    border-radius: 12px;
+    /* background-color: white; */
+    /* margin: 5px; */
+    width: 80%;
+    /* padding: 2em; */
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    height: 105%;
+  }
+
+
+  div.card-body{
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  
+  }
+
+  
+    /* c5 */
+  
+    .c5-1 {
+      margin-top: 3em;
+      width: 100%;
+    }
+  
+    .c5-1 p {
+      width: 70%;
+    }
+  
+    .c5-content {
+      width: 50%;
+      padding-top: 1em;
+    
+    }
+  
+    .img-fluid {
+      height: 70%;
+      width: 70%;
+    }
+  
+    .box6 {
+      padding-top: 4em;
+    }
+  
+    .box7 {
+      padding-bottom: 2em;
+    }
+  
+    #box3-1 {
+      padding-top: 2.1em;
+      font-size: 1.3em;
+    }
+
+  
+}
+
+@media (min-width: 1026px) and (max-width: 1441px) {
+  .c1 {
+    width: 100%;
+    height: 95rem;
+  }
+
+  .c2 {
+    width: 100%;
+
+    height: 43.2rem;
+  }
+  .c3 {
+    width: 100%;
+
+    height: 12rem;
+  }
+  .c4 {
+    width: 100%;
+
+    height: 50rem;
+  }
+  .c5 {
+    width: 100%;
+
+    height: 67rem;
+  }
+  p.fs-1 {
+    font-size: 2.75em;
+  }
+
+  p.fs-2 {
+    font-size: 2.5em;
+  }
+  p.fs-3 {
+    font-size: 2.25em;
+  }
+  p.fs-4 {
+    font-size: 1.75em;
+  }
+  p.fs-5 {
+    font-size: 1.25em;
+  }
+  p.fs-6 {
+    font-size: 1em;
+  }
+
+  .box1 {
+    padding-top: 5em;
+  }
+
+  .box2 {
+    padding-top: 6em;
+  }
+
+  .box3 {
+    padding-top: 7em;
+  }
+
+
+  .box2 {
+    padding-top: 7em;
+  }
+
+  .box3 {
+    padding-top: 7em;
+  }
+
+
+  .box1 {
+    margin-top: 10rem;
+    padding-top: 5em;
+    width: 86%;
+  }
+
+  div.teks-box2 {
+    margin-top:1em;
+    font-size: 1.4em;
+  }
+
+  /* c4 */
+  img.img-fluid.img-c4 {
+    height: 100%;
+    width: auto;
+    padding-right: 1em;
+    padding-left: 1em;
+  }
+
+  .c4-card-mid {
+    padding-top: 3em;
+  }
+
+  div.card-c4 {
+    /* border: 3px solid black; */
+    /* padding: 10px 5px; */
+    border-radius: 12px;
+    /* background-color: white; */
+    /* margin: 5px; */
+    width: 70%;
+    /* padding: 2em; */
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    height: 110%;
+  }
+
+
+  div.card-body{
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  
+  }
+
+  .btn.btn-danger {
+    width: 60%;
+    margin-top: 1em;
+    background-color: red;
+    border-radius: 12px;
+    padding: 0px;
+  }
+
+  .box8{
+    margin-top: 3em;
+  }
+
+  /* c5 */
+
+  .c5-1 {
+    margin-top: 3em;
+    width: 100%;
+  }
+
+  .c5-1 p {
+    width: 70%;
+  }
+
+  .c5-content {
+    width: 50%;
+    padding-top: 1em;
+  
+  }
+
+  .img-fluid {
+    height: 70%;
+    width: 70%;
+  }
+
+  .box6 {
+    padding-top: 2em;
+  }
+
+  .box7 {
+    padding-bottom: 2em;
+  }
+
+  #box3-1 {
+    padding-top: 2.1em;
+    font-size: 1.3em;
+  } 
+}
+
+@media (min-width: 1441px) {
+  .c1 {
+    width: 100%;
+    height: 95rem;
+  }
+
+  .c2 {
+    width: 100%;
+
+    height: 43.2rem;
+  }
+  .c3 {
+    width: 100%;
+
+    height: 12rem;
+  }
+  .c4 {
+    width: 100%;
+
+    height: 45rem;
+  }
+  .c5 {
+    width: 100%;
+
+    height: 75rem;
+  }
+
+  .box1 {
+    padding-top: 5em;
+    width: 86%;
+  }
+
+  .box2 {
+    padding-top: 10em;
+  }
+
+  .box3 {
+    padding-top: 7em;
+  }
+
+  .fs-1 {
+    font-size: 3em;
+  }
+
+  .fs-2 {
+    font-size: 2.5em;
+  }
+  .fs-3 {
+    font-size: 2em;
+  }
+  .fs-4 {
+    font-size: 1.5em;
+  }
+  .fs-5 {
+    font-size: 1.25em;
+  }
+  .fs-6 {
+    font-size: 1em;
+  }
+
+  .box1 {
+    margin-top: 10rem;
+  }
+
+  div.teks-box2 {
+    margin-top: 1em;
+    font-size: 1.4em;
+  }
+
+  /* c4 */
+
+  
+  .btn.btn-danger {
+    width: 60%;
+    margin-top: 1em;
+    background-color: red;
+    border-radius: 12px;
+    padding: 0px;
+  }
+
+  img.img-fluid.img-c4 {
+    height: 100%;
+    width: auto;
+    padding-right: 1em;
+    padding-left: 1em;
+  }
+
+  .c4-card-mid {
+    padding-top: 3em;
+  }
+
+  div.card-c4 {
+    /* border: 3px solid black; */
+    /* padding: 10px 5px; */
+    border-radius: 12px;
+    /* background-color: white; */
+    /* margin: 5px; */
+    width: 70%;
+    /* padding: 2em; */
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    height: 110%;
+  }
+
+
+  div.card-body{
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  
+  }
+
+  /* c5 */
+
+  .c5-1 {
+    margin-top: 3em;
+    width: 100%;
+  }
+
+  .c5-1 p {
+    width: 70%;
+  }
+
+  .c5-content {
+    width: 50%;
+    padding-top: 1em;
+  }
+
+  .img-fluid {
+    height: 80%;
+    width: 80%;
+  }
+
+  .box6 {
+    padding-top: 6em;
+  }
+
+  .box7 {
+    padding-bottom: 2em;
+  }
+
+  #box3-1 {
+    padding-top: 2.1em;
+    font-size: 1.3em;
+  }
 }
